@@ -1,16 +1,15 @@
 {
   "name": "crud-blog-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "RESTful Blog CRUD API built with Node.js, Express 5, and MongoDB (Mongoose).",
+  "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js"
   },
-  "private": true,
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["nodejs", "express", "mongodb", "mongoose", "rest-api", "crud"],
+  "author": "Alizhan-T",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
